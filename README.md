@@ -1,16 +1,26 @@
 # gulp-scss-boilerplate
-This boilerplate has been created for quick start in website development.
 
-Boilerplate contains Gulp as a task runner, preprocessors (SCSS).
-There are few useful tasks in gulpfile.js:
-- compiling preprocessors in CSS;
-- automatic page reload (browsersync)
+## Quick start in website development with HTML5/CSS3 using Sass/Scss and Javascript.
+
+### Tasks
+
+- compiling pre-processors to CSS
+- automatic page reload (browser-sync)
 - CSS files compression
-- task for building project into 'dist' folder before production 
+- images compression
+- create production build (available later in dist folder)
 
-Quick start with this boilerplate:
+### Quick start with boilerplate:
 
-- git clone https://github.com/vtereshyn/gulp-scss-boilerplate.git
-- cd gulp-scss-boilerplate;
-- npm i
-- gulp watch
+```ssh
+git clone https://github.com/vtereshyn/gulp-scss-boilerplate.git
+cd gulp-scss-boilerplate;
+npm i
+npm run watch
+```
+
+### To build project
+
+```ssh
+npm run build
+```
